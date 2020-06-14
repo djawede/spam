@@ -43,6 +43,9 @@ message.channel.send('#profile')
   if(message.content === 'r1 lemon'){
 message.channel.send("#rep "+"<@" + myid2 + ">")
   }
+  if(message.content === '3adel'){
+message.channel.send("kho ilyes")
+  }
 });
  
 client2.on('message', message => {
