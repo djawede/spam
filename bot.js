@@ -49,11 +49,7 @@ message.channel.send("kho ilyes")
    if(message.content === 'a'){
 message.channel.send("b")
   }
-   if(message.content === prefix+'help'){
-message.channel.send(" **d1**: for my daily
-                       **r1**: give trexus rep
-                       **r1 lemon**: give lemong rep ")
-  }
+
 });
  
 client2.on('message', message => {
