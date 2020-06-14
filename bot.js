@@ -46,8 +46,8 @@ message.channel.send("#rep "+"<@" + myid2 + ">")
   if(message.content === '3adel'){
 message.channel.send("kho ilyes")
   }
-   if(message.content === 'a'){
-message.channel.send("b")
+   if(message.content === 'anis'){
+message.channel.send("seinsi")
   }
 
 });
