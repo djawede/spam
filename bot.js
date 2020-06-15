@@ -49,7 +49,14 @@ message.channel.send("kho ilyes")
    if(message.content === 'anis'){
 message.channel.send("seinsi")
   }
-
+  if(message.content === 'hello'){
+message.channel.send("how are you")
+     if (message.content === 'fine wbu') {
+message.channel.send('fine thx')
+  }
+     if (message.content === 'ok fuck off') {
+message.channel.send('sorry seinsi')
+  }
 });
  
 client2.on('message', message => {
@@ -68,6 +75,15 @@ message.channel.send('#profile')
   if(message.content.startsWith("s2")) {
     var text = message.content.split(' ').slice(1).join(' ');
      message.channel.send(text);
+  }
+  if (message.content === 'hi') {
+message.channel.send('hello')
+  }
+   if (message.content === 'how are you') {
+message.channel.send('fine wbu')
+  }
+   if (message.content === 'fine thx') {
+message.channel.send('ok fuck off')
   }
 });
  
